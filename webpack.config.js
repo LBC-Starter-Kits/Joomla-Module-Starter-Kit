@@ -2,6 +2,7 @@ const path = require("path");
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+var ZipPlugin = require('zip-webpack-plugin');
 
 module.exports = {
     mode: "development",
@@ -48,6 +49,10 @@ module.exports = {
                 { from: "./src/mod_modBase.php", to: "mod_modBase.php" },
                 { from: "./src/mod_modBase.xml", to: "mod_modBase.xml" },                
             ],
-        })
+        }),
+        new ZipPlugin({
+            path : '../dist_zip',
+            filename : 'j3mod_base.zip'
+        }),
     ],
 };
