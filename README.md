@@ -18,6 +18,11 @@ git pull https://github.com/Luinux81/joomla-module-base.git
 npm install
 ~~~
 
+* Instalamos las dependencias del archivo composer.json
+~~~
+composer install
+~~~
+
 * Por último ejecutamos el script build
 ~~~
 npm run build
