@@ -18,4 +18,7 @@ echo "< div class='tickets-outer-wrapper'>
        < /div>
     ";
 */
+
+/* echo modBase::lorem(); */
+
 ?>

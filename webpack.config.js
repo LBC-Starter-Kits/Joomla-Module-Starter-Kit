@@ -44,6 +44,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [                
                 { from: path.resolve(__dirname,"src","tmpl"), to: "tmpl" },
+                { from: path.resolve(__dirname,"vendor"), to: "vendor" },
                 { from: "./src/index.html", to: "index.html" },
                 { from: "./src/helper.php", to: "helper.php" },
                 { from: "./src/mod_modBase.php", to: "mod_modBase.php" },
