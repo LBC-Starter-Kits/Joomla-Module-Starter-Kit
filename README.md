@@ -10,7 +10,7 @@ Una plantilla de base con la estructura de un módulo Joomla.
 ~~~
 git init foo
 cd foo
-git pull https://github.com/Luinux81/joomla-module-base.git
+git pull https://github.com/LBC-Starter-Kits/Joomla-Module-Starter-Kit.git
 ~~~
 
 * Instalamos las dependencias del archivo package.json
