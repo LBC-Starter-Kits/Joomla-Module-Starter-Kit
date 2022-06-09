@@ -1,5 +1,5 @@
 import '../styles/main.scss';
-import {abreMenu, cierraMenu} from './functions.js';
+import {foo, foo2} from './functions.js';
 
-window.abreMenu = abreMenu;
-window.cierraMenu = cierraMenu;
+window.foo = foo;
+window.foo2 = foo2;
